@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Dinas Komunikasi Informatika Statistik dan Persandian">
+    <meta name="author" content="Diskominfo Kabupaten Ogan Ilir">
+    <title>Dinas Komunikasi Informatika Statistik dan Persandian</title>
+
+    <!-- Favicons-->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" type="image/x-icon" href="img/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="72x72" href="img/apple-touch-icon-72x72-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="114x114"
+        href="img/apple-touch-icon-114x114-precomposed.png">
+    <link rel="apple-touch-icon" type="image/x-icon" sizes="144x144"
+        href="img/apple-touch-icon-144x144-precomposed.png">
+
+    <!-- GOOGLE WEB FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap"
+        rel="stylesheet">
+
+    <!-- BASE CSS -->
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/icon_fonts/css/all_icons_min.css" rel="stylesheet">
+    <link href="css/magnific-popup.min.css" rel="stylesheet">
+    <link href="css/skins/square/yellow.css" rel="stylesheet">
+
+    <!-- YOUR CUSTOM CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <div id="loader_form">
+        <div data-loader="circle-side-2"></div>
+    </div><!-- /Loader_form -->
+
+    <header>
+        <a id="menu-button-mobile" class="cmn-toggle-switch cmn-toggle-switch__htx"
+            href="javascript:void(0);"><span>Menu mobile</span></a>
+        <nav class="main_nav">
+            <ul class="nav nav-tabs">
+                <li><a href="index.html">Kembali</a>
+                </li>
+                <!-- <li><a href="#tab_2" data-bs-toggle="tab">About</a></li>
+                <li><a href="#tab_3" data-bs-toggle="tab">Contact</a></li> -->
+            </ul>
+        </nav>
+    </header><!-- /header -->
+
+    <div id="main_container" class="visible">
+
+        <div id="header_in">
+            <div id="logo_in"><a href="index.html"><img src="img/Logo_pemkab_oi.png" width="160" height="38"
+                        alt="Quote"></a>
+            </div>
+        </div>
+
+        <div class="wrapper_in">
+            <div class="container-fluid">
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" id="tab_1">
+                        <div class="subheader" id="quote"></div>
+                        <div class="row">
+                            <aside class="col-xl-3 col-lg-4">
+                                <h2>KKN Tematik Program BIDADARI</h2>
+                                <p class="lead">Bina Desa Adaptif Tangguh & Mandiri Angkatan - II</p>
+                                <p>Guna meningkatkan mutu layanan dan kualitas dari Aplikasi Sidesi yang lebih baik di
+                                    masa yang akan
+                                    datang, kami sangat berterima kasih apabila Anda berpartisipasi dan berkenan
+                                    meluangkan waktu untuk mengisi Survey
+                                    Kepuasan ini</p>
+                            </aside><!-- /aside -->
+
+                            <div class="col-xl-9 col-lg-8">
+                                <div id="wizard_container">
+                                    <div id="top-wizard">
+                                        <strong>Progress</strong>
+                                        <div id="progressbar"></div>
+                                    </div><!-- /top-wizard -->
+
+                                    <form name="example-1" id="wrapped" method="POST">
+                                        <input id="website" name="website" type="text" value="">
+                                        <!-- Leave for security protection, read docs for details -->
+                                        <div id="middle-wizard">
+                                            <div class="step">
+
+                                                <h3 class="main_question"><strong>1/9</strong>Profil Responden
+                                                </h3>
+
+                                                <div class="row">
+
+                                                    <div class="col-sm-6">
+                                                        <div class="form-group">
+                                                            <input type="text" name="name" class="form-control"
+                                                                placeholder="Nama Lengkap">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <input type="text" name="age" class="required form-control"
+                                                                placeholder="Usia">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <input type="text" name="sex" class="required form-control"
+                                                                placeholder="Jenis Kelamin">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <input type="email" name="email"
+                                                                class="required form-control" placeholder="Your Email">
+                                                        </div>
+                                                    </div><!-- /col-sm-6 -->
+
+                                                    <div class="col-sm-6">
+                                                        <div class="form-group">
+                                                            <input type="text" name="hp" class="required form-control"
+                                                                placeholder="Nomor Telepon/HP">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <input type="text" name="universitas"
+                                                                class="required form-control" placeholder="Universitas">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <input type="text" name="fak" class="required form-control"
+                                                                placeholder="Fakultas">
+                                                        </div>
+                                                        <div class="form-group">
+                                                            <input type="text" name="prodi"
+                                                                class="required form-control"
+                                                                placeholder="Program Studi">
+                                                        </div>
+                                                    </div><!-- /col-sm-6 -->
+                                                </div><!-- /row -->
+
+                                                <div class="form-group checkbox_questions">
+                                                    <input name="terms" type="checkbox" class="icheck required"
+                                                        value="yes">
+                                                    <label>Data yang saya isikan <a href="#" data-bs-toggle="modal"
+                                                            data-bs-target="#terms-txt">adalah biodata saya
+                                                            sebenarnya</a>
+                                                    </label>
+                                                </div>
+
+                                            </div><!-- /step 4-->
+
+                                            <div class="step">
+                                                <h3 class="main_question"><strong>2/9</strong>Pemahaman dan Kesiapan
+                                                    Peserta?</h3>
+                                                <div class="form-group radio_questions">
+                                                    <label>1. Seberapa baik Anda memahami tujuan utama dari kegiatan
+                                                        input data kependudukan ini?
+                                                        <input name="question_1" type="radio"
+                                                            value="Seberapa baik Anda memahami tujuan utama dari kegiatan input data kependudukan ini"
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+                                                <div class="form-group radio_questions">
+                                                    <label>2. Sangat baik / Baik / Cukup / Kurang / Sangat kurang
+                                                        <input name="question_1" type="radio"
+                                                            value="Sangat baik / Baik / Cukup / Kurang / Sangat kurang"
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+                                                <div class="form-group radio_questions">
+                                                    <label>3. Apakah Anda merasa mendapatkan pelatihan yang cukup untuk
+                                                        melakukan input data kependudukan dengan akurat dan tepat?
+                                                        <input name="question_1" type="radio"
+                                                            value="Apakah Anda merasa mendapatkan pelatihan yang cukup untuk melakukan input data kependudukan dengan akurat dan tepat"
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+                                                <div class="form-group radio_questions">
+                                                    <label>4. Sangat cukup / Cukup / Kurang / Sangat kurang
+                                                        <input name="question_1" type="radio"
+                                                            value="Sangat cukup / Cukup / Kurang / Sangat kurang"
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+                                            </div><!-- /step 2-->
+
+                                            <div class="step">
+                                                <h3 class="main_question"><strong>3/9</strong>Instruksi dan Panduan
+                                                    Input Data
+                                                </h3>
+                                                <div class="form-group radio_questions">
+                                                    <label>1. Apakah panduan mengenai prosedur input data kependudukan
+                                                        mudah dipahami?
+                                                        <input name="question_4" type="radio"
+                                                            value="Apakah panduan mengenai prosedur input data kependudukan mudah dipahami"
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+                                                <div class="form-group radio_questions">
+                                                    <label>2. Sangat mudah / Mudah / Cukup / Sulit / Sangat sulit
+                                                        <input name="question_4" type="radio"
+                                                            value="Sangat mudah / Mudah / Cukup / Sulit / Sangat sulit"
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+                                                <div class="form-group radio_questions">
+                                                    <label>3. Seberapa jelas Anda memahami alat atau perangkat yang
+                                                        digunakan untuk input data kependudukan (misalnya aplikasi atau
+                                                        formulir khusus)?
+                                                        <input name="question_4" type="radio"
+                                                            value="Seberapa jelas Anda memahami alat atau perangkat yang digunakan untuk input data kependudukan (misalnya aplikasi atau formulir khusus)"
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+                                                <div class="form-group radio_questions">
+                                                    <label>4. Sangat jelas / Jelas / Cukup jelas / Kurang jelas / Tidak
+                                                        jelas sama sekali
+                                                        <input name="question_4" type="radio"
+                                                            value="Sangat jelas / Jelas / Cukup jelas / Kurang jelas / Tidak jelas sama sekali"
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+                                                <div class="form-group radio_questions">
+                                                    <label>5. Apakah Anda merasa terbantu dengan adanya pedoman atau
+                                                        panduan teknis dalam pelaksanaan input data?
+                                                        <input name="question_4" type="radio"
+                                                            value="Apakah Anda merasa terbantu dengan adanya pedoman atau panduan teknis dalam pelaksanaan input data"
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+                                                <div class="form-group radio_questions">
+                                                    <label>6. Sangat terbantu / Terbantu / Cukup terbantu / Tidak
+                                                        terbantu
+                                                        <input name="question_4" type="radio"
+                                                            value="Sangat terbantu / Terbantu / Cukup terbantu / Tidak terbantu"
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+                                            </div><!-- /step 3-->
+
+                                            <div class="step">
+                                                <h3 class="main_question"><strong>4/9</strong>Kelancaran Proses Input
+                                                    Data
+                                                </h3>
+                                                <div class="form-group radio_questions">
+                                                    <label>1. Seberapa lancar Anda dalam melakukan proses input data
+                                                        kependudukan di lapangan?
+                                                        <input name="question_4" type="radio"
+                                                            value="Seberapa lancar Anda dalam melakukan proses input data kependudukan di lapangan"
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+                                                <div class="form-group radio_questions">
+                                                    <label>2. Sangat lancar / Lancar / Cukup lancar / Kurang lancar /
+                                                        Tidak lancar sama sekali
+                                                        <input name="question_4" type="radio"
+                                                            value="Sangat lancar / Lancar / Cukup lancar / Kurang lancar / Tidak lancar sama sekali"
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+                                                <div class="form-group radio_questions">
+                                                    <label>3. Apakah Anda mengalami kendala teknis atau kesulitan
+                                                        lainnya saat melakukan input data? Jika ya, sebutkan kendala
+                                                        tersebut.
+                                                        <input name="question_4" type="radio"
+                                                            value="Apakah Anda mengalami kendala teknis atau kesulitan lainnya saat melakukan input data? Jika ya, sebutkan kendala tersebut."
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+                                                <div class="form-group radio_questions">
+                                                    <label>4. Ya / Tidak
+                                                        <input name="question_4" type="radio" value="Ya / Tidak"
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+                                                <div class="form-group radio_questions">
+                                                    <label>5. Seberapa sering Anda mengalami kendala teknis dalam
+                                                        pelaksanaan input data ini?
+                                                        <input name="question_4" type="radio"
+                                                            value="Seberapa sering Anda mengalami kendala teknis dalam pelaksanaan input data ini"
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+                                                <div class="form-group radio_questions">
+                                                    <label>6. Sangat sering / Sering / Kadang-kadang / Jarang / Tidak
+                                                        pernah?
+                                                        <input name="question_4" type="radio"
+                                                            value="Sangat sering / Sering / Kadang-kadang / Jarang / Tidak pernah"
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+                                            </div><!-- /step 4-->
+
+                                            <div class="step">
+                                                <h3 class="main_question"><strong>5/9</strong>Akurasi dan Validitas Data
+                                                </h3>
+                                                <div class="form-group radio_questions">
+                                                    <label>1. Seberapa yakin Anda terhadap keakuratan data yang telah
+                                                        Anda input?
+                                                        <input name="question_5" type="radio"
+                                                            value="Seberapa yakin Anda terhadap keakuratan data yang telah Anda input"
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+                                                <div class="form-group radio_questions">
+                                                    <label>2. Sangat yakin / Yakin / Cukup yakin / Kurang yakin / Tidak
+                                                        yakin sama sekali
+                                                        <input name="question_5" type="radio"
+                                                            value="Sangat yakin / Yakin / Cukup yakin / Kurang yakin / Tidak yakin sama sekali"
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+                                                <div class="form-group radio_questions">
+                                                    <label>3. Apakah Anda memverifikasi data sebelum menyelesaikan input
+                                                        untuk memastikan tidak ada kesalahan?
+                                                        <input name="question_5" type="radio"
+                                                            value="Apakah Anda memverifikasi data sebelum menyelesaikan input untuk memastikan tidak ada kesalahan"
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+                                                <div class="form-group radio_questions">
+                                                    <label>4. Selalu / Sering / Kadang-kadang / Jarang / Tidak pernah
+                                                        <input name="question_5" type="radio"
+                                                            value="Selalu / Sering / Kadang-kadang / Jarang / Tidak pernah"
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+                                                <div class="form-group radio_questions">
+                                                    <label>5. Apakah instrumen atau sistem input data yang digunakan
+                                                        mendukung proses verifikasi data secara efektif?
+                                                        <input name="question_5" type="radio"
+                                                            value="Apakah instrumen atau sistem input data yang digunakan mendukung proses verifikasi data secara efektif"
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+                                                <div class="form-group radio_questions">
+                                                    <label>6. Sangat mendukung / Mendukung / Cukup mendukung / Kurang
+                                                        mendukung / Tidak mendukung sama sekali?
+                                                        <input name="question_5" type="radio"
+                                                            value="Sangat mendukung / Mendukung / Cukup mendukung / Kurang mendukung / Tidak mendukung sama sekali"
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+                                            </div><!-- /step 5-->
+
+                                            <div class="step">
+                                                <h3 class="main_question"><strong>6/9</strong>Efisiensi Waktu dan
+                                                    Manajemen Kerja
+                                                </h3>
+                                                <div class="form-group radio_questions">
+                                                    <label>1. Apakah waktu yang disediakan untuk melakukan input data
+                                                        kependudukan cukup?
+                                                        <input name="question_6" type="radio"
+                                                            value="Apakah waktu yang disediakan untuk melakukan input data kependudukan cukup"
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+                                                <div class="form-group radio_questions">
+                                                    <label>2. Sangat cukup / Cukup / Kurang / Sangat kurang
+                                                        <input name="question_6" type="radio"
+                                                            value="Sangat cukup / Cukup / Kurang / Sangat kurang"
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+                                                <div class="form-group radio_questions">
+                                                    <label>3. Seberapa sering Anda kesulitan dalam menyelesaikan input
+                                                        data tepat waktu?
+                                                        <input name="question_6" type="radio"
+                                                            value="Seberapa sering Anda kesulitan dalam menyelesaikan input data tepat waktu"
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+                                                <div class="form-group radio_questions">
+                                                    <label>4. Sangat sering / Sering / Kadang-kadang / Jarang / Tidak
+                                                        pernah
+                                                        <input name="question_6" type="radio"
+                                                            value="Sangat sering / Sering / Kadang-kadang / Jarang / Tidak pernah"
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+                                            </div><!-- /step 6-->
+
+                                            <div class="step">
+                                                <h3 class="main_question"><strong>7/9</strong>Penggunaan Teknologi dan
+                                                    Perangkat
+                                                </h3>
+                                                <div class="form-group radio_questions">
+                                                    <label>1. Apakah perangkat teknologi yang disediakan mendukung Anda
+                                                        dalam proses input data kependudukan?
+                                                        <input name="question_7" type="radio"
+                                                            value="Apakah perangkat teknologi yang disediakan mendukung Anda dalam proses input data kependudukan"
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+                                                <div class="form-group radio_questions">
+                                                    <label>2. Sangat cukup / Cukup / Kurang / Sangat kurang
+                                                        <input name="question_7" type="radio"
+                                                            value="Sangat mendukung / Mendukung / Cukup mendukung / Kurang mendukung / Tidak mendukung sama sekali"
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+                                                <div class="form-group radio_questions">
+                                                    <label>3. Seberapa mudah Anda dalam menggunakan aplikasi atau
+                                                        perangkat lunak untuk input data?
+                                                        <input name="question_7" type="radio"
+                                                            value="Seberapa mudah Anda dalam menggunakan aplikasi atau perangkat lunak untuk input data"
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+                                                <div class="form-group radio_questions">
+                                                    <label>4. Sangat mudah / Mudah / Cukup / Sulit / Sangat sulit
+                                                        <input name="question_7" type="radio"
+                                                            value="Sangat mudah / Mudah / Cukup / Sulit / Sangat sulit"
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+                                                <div class="form-group radio_questions">
+                                                    <label>5. Apakah pelatihan terkait penggunaan teknologi yang
+                                                        diberikan cukup membantu Anda dalam melaksanakan input data?
+                                                        <input name="question_7" type="radio"
+                                                            value="Apakah pelatihan terkait penggunaan teknologi yang diberikan cukup membantu Anda dalam melaksanakan input data"
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+                                                <div class="form-group radio_questions">
+                                                    <label>6. Sangat cukup / Cukup / Kurang / Sangat kurang
+                                                        <input name="question_7" type="radio"
+                                                            value="Sangat cukup / Cukup / Kurang / Sangat kurang"
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+                                            </div><!-- /step 7-->
+
+                                            <div class="step">
+                                                <h3 class="main_question"><strong>8/9</strong>Dokumentasi dan Pelaporan?
+                                                </h3>
+                                                <div class="form-group radio_questions">
+                                                    <label>1. Apakah Anda merasa terbantu dengan adanya panduan dalam
+                                                        dokumentasi dan pelaporan data kependudukan?
+                                                        <input name="question_8" type="radio"
+                                                            value="Apakah Anda merasa terbantu dengan adanya panduan dalam dokumentasi dan pelaporan data kependudukan"
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+                                                <div class="form-group radio_questions">
+                                                    <label>2. Sangat terbantu / Terbantu / Cukup terbantu / Tidak
+                                                        terbantu
+                                                        <input name="question_8" type="radio"
+                                                            value="Sangat terbantu / Terbantu / Cukup terbantu / Tidak terbantu"
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+                                                <div class="form-group radio_questions">
+                                                    <label>3. Seberapa jelas format dan struktur pelaporan data yang
+                                                        diminta dalam program ini?
+                                                        <input name="question_8" type="radio"
+                                                            value="Seberapa jelas format dan struktur pelaporan data yang diminta dalam program ini"
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+                                                <div class="form-group radio_questions">
+                                                    <label>4. Sangat jelas / Jelas / Cukup jelas / Kurang jelas / Tidak
+                                                        jelas sama sekali
+                                                        <input name="question_8" type="radio"
+                                                            value="Sangat jelas / Jelas / Cukup jelas / Kurang jelas / Tidak jelas sama sekali"
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+                                            </div><!-- /step 8-->
+
+                                            <div class="submit step">
+
+                                                <h3 class="main_question"><strong>9/9</strong>Evaluasi dan Rekomendasi?
+                                                </h3>
+
+                                                <div class="form-group radio_questions">
+                                                    <label>1. Apakah ada kendala atau tantangan spesifik yang Anda
+                                                        hadapi saat melakukan input data kependudukan yang belum
+                                                        disebutkan di atas?
+                                                        <input name="question_1" type="radio" value="Apakah ada kendala atau tantangan spesifik yang Anda
+                                                            hadapi saat melakukan input data kependudukan yang belum
+                                                            disebutkan di atas" class="icheck required">
+                                                    </label>
+                                                </div>
+                                                <div class="form-group radio_questions">
+                                                    <label>2. Apakah Anda memiliki saran untuk meningkatkan efisiensi
+                                                        dan efektivitas proses input data di masa mendatang?
+                                                        <input name="question_1" type="radio" value="Apakah Anda memiliki saran untuk meningkatkan efisiensi
+                                                            dan efektivitas proses input data di masa mendatang"
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+                                                <div class="form-group radio_questions">
+                                                    <label>3. Apakah ada alat atau dukungan tambahan yang menurut Anda
+                                                        dapat membantu dalam optimalisasi proses input data?
+                                                        <input name="question_1" type="radio" value="Apakah ada alat atau dukungan tambahan yang menurut Anda
+                                                            dapat membantu dalam optimalisasi proses input data"
+                                                            class="icheck required">
+                                                    </label>
+                                                </div>
+
+                                            </div><!-- /step 9-->
+
+                                        </div><!-- /middle-wizard -->
+                                        <div id="bottom-wizard">
+                                            <button type="button" name="backward" class="backward">Kembali </button>
+                                            <button type="button" name="forward" class="forward">Selanjutnya</button>
+                                            <button type="submit" name="process" class="submit">Kirim</button>
+                                        </div><!-- /bottom-wizard -->
+                                    </form>
+                                </div><!-- /Wizard container -->
+
+                            </div><!-- /col -->
+                        </div><!-- /row -->
+                    </div><!-- /TAB 1:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+                    <div class="tab-pane fade" id="tab_2">
+                        <div class="subheader" id="about"></div>
+                        <div class="row">
+                            <div class="col-lg-8">
+                                <h2>Welcome to Quote</h2>
+                                <p class="lead">An mei sadipscing dissentiet, eos ea partem viderer facilisi. Brute
+                                    nostrud democritum in vis, nam ei erat zril mediocrem. No postea diceret vix. Mei eu
+                                    scripta dolorum voluptatibus, id omnes repudiare pri.</p>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="box_feat" id="icon_1">
+                                            <span></span>
+                                            <h3>Responsive site design</h3>
+                                            <p>Usu habeo equidem sanctus no. Suas summo id sed, erat erant oporteat cu
+                                                pri. In eum omnes molestie. Sed ad debet scaevola, ne mel.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="box_feat" id="icon_2">
+                                            <span></span>
+                                            <h3>Web site check</h3>
+                                            <p>Usu habeo equidem sanctus no. Suas summo id sed, erat erant oporteat cu
+                                                pri. In eum omnes molestie. Sed ad debet scaevola, ne mel.</p>
+                                        </div>
+                                    </div>
+                                </div><!-- /row -->
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="box_feat" id="icon_3">
+                                            <h3>Email campaigns</h3>
+                                            <p>Usu habeo equidem sanctus no. Suas summo id sed, erat erant oporteat cu
+                                                pri. In eum omnes molestie. Sed ad debet scaevola, ne mel.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="box_feat" id="icon_4">
+                                            <h3>Seo optimization</h3>
+                                            <p>Usu habeo equidem sanctus no. Suas summo id sed, erat erant oporteat cu
+                                                pri. In eum omnes molestie. Sed ad debet scaevola, ne mel.</p>
+                                        </div>
+                                    </div>
+                                </div><!-- /row -->
+                                <hr>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="about_info">
+                                            <i class="pe-7s-news-paper"></i>
+                                            <h4>A brief about Quote<span>Suas summo id sed, erat erant oporteat cu
+                                                    pri.</span></h4>
+                                            <p>Cum iusto nonumes dignissim ad, movet vocent ceteros nec ut. Eu putent
+                                                utroque ius, ei usu purto doctus, ludus nostrud consectetuer ex pri.
+                                                Maiorum petentium similique duo id. Sea ex nostro offendit, ius sumo
+                                                electram theophrastus et. Nam eu dolore aliquid laoreet, ei eos
+                                                tacimates assueverit inciderint. His deserunt recteque consequat in. Vis
+                                                mucius virtute consequat ad, suavitate interesset an mei, oporteat
+                                                temporibus at sea.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="about_info">
+                                            <i class="pe-7s-light"></i>
+                                            <h4>Mission<span>Suas summo id sed, erat erant oporteat cu pri.</span></h4>
+                                            <p>Cum iusto nonumes dignissim ad, movet vocent ceteros nec ut. Eu putent
+                                                utroque ius, ei usu purto doctus, ludus nostrud consectetuer ex pri.
+                                                Maiorum petentium similique duo id. Sea ex nostro offendit, ius sumo
+                                                electram theophrastus et. Nam eu dolore aliquid laoreet, ei eos
+                                                tacimates assueverit inciderint. His deserunt recteque consequat in. Vis
+                                                mucius virtute consequat ad, suavitate interesset an mei, oporteat
+                                                temporibus at sea.</p>
+                                        </div>
+                                    </div>
+                                </div><!-- /row -->
+                            </div><!-- /col -->
+
+                            <aside class="col-lg-4">
+                                <div class="more_padding_left">
+                                    <div class="widget" id="review">
+                                        <h4>reviews</h4>
+                                        <div class="owl-carousel owl-theme add_bottom_30">
+                                            <div class="item">
+                                                <blockquote class="testimonial">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                                                        hendrerit vehicula est, in consequat. Lorem ipsum dolor sit
+                                                        amet, consectetur adipiscing elit. Donec hendrerit vehicula est,
+                                                        in consequat. Donec hendrerit vehicula est, in consequat. Donec
+                                                        hendrerit vehicula est, in consequat.
+                                                    </p>
+                                                </blockquote>
+                                                <div class="testimonial-arrow-down">
+                                                </div>
+                                                <div class="testimonial-author">
+                                                    <div class="img-thumbnail img-thumbnail-small">
+                                                        <img src="img/avatar1.jpg" alt="">
+                                                    </div>
+                                                    <p>
+                                                        <strong>Mark Smith</strong><span>October 2016</span>
+                                                    </p>
+                                                </div>
+                                            </div><!-- /item -->
+                                            <div class="item">
+                                                <blockquote class="testimonial">
+                                                    <p>
+                                                        Donec hendrerit vehicula est, in consequat. Lorem ipsum dolor
+                                                        sit amet, consectetur adipiscing elit. Donec hendrerit vehicula
+                                                        est, in consequat. Donec hendrerit vehicula est, in consequat.
+                                                        Donec hendrerit vehicula est, in consequat.
+                                                    </p>
+                                                </blockquote>
+                                                <div class="testimonial-arrow-down">
+                                                </div>
+                                                <div class="testimonial-author">
+                                                    <div class="img-thumbnail img-thumbnail-small">
+                                                        <img src="img/avatar2.jpg" alt="">
+                                                    </div>
+                                                    <p>
+                                                        <strong>Mark Smith</strong><span>September 2016</span>
+                                                    </p>
+                                                </div>
+                                            </div><!-- /item -->
+                                            <div class="item">
+                                                <blockquote class="testimonial">
+                                                    <p>
+                                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
+                                                        hendrerit vehicula est, in consequat. Lorem ipsum dolor sit
+                                                        amet, consectetur adipiscing elit. Donec hendrerit vehicula est,
+                                                        in consequat. Donec hendrerit vehicula est, in consequat.
+                                                    </p>
+                                                </blockquote>
+                                                <div class="testimonial-arrow-down">
+                                                </div>
+                                                <div class="testimonial-author">
+                                                    <div class="img-thumbnail img-thumbnail-small">
+                                                        <img src="img/avatar3.jpg" alt="">
+                                                    </div>
+                                                    <p>
+                                                        <strong>Mark Smith</strong><span>July 2016</span>
+                                                    </p>
+                                                </div>
+                                            </div><!-- /item -->
+                                        </div><!-- /carousel -->
+                                    </div><!-- /reviews -->
+                                    <div class="widget" id="gallery">
+                                        <h4>gallery</h4>
+                                        <ul class="magnific-gallery">
+                                            <li>
+                                                <a href="img/gallery/large_1.jpg" title="image title">
+                                                    <figure><img src="img/gallery/thumb_1.jpg" alt="thumb"></figure>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="img/gallery//large_2.jpg" title="image title">
+                                                    <figure><img src="img/gallery/thumb_2.jpg" alt="thumb"></figure>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="img/gallery/large_3.jpg" title="image title">
+                                                    <figure><img src="img/gallery/thumb_3.jpg" alt="thumb"></figure>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="img/gallery/large_4.jpg" title="image title">
+                                                    <figure><img src="img/gallery/thumb_2.jpg" alt="thumb"></figure>
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a href="img/gallery/large_5.jpg" title="image title">
+                                                    <figure><img src="img/gallery/thumb_3.jpg" alt="thumb"></figure>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div><!-- /gallery -->
+                                    <div class="widget" id="follow">
+                                        <h4>follow us</h4>
+                                        <ul>
+                                            <li><a href="#"><i class="icon-facebook"></i>Facebook</a></li>
+                                            <li><a href="#"><i class="icon-twitter"></i>Twitter</a></li>
+                                            <li><a href="#"><i class="icon-google"></i>Google plus</a></li>
+                                            <li><a href="#"><i class="icon-instagram"></i>Instagram</a></li>
+                                        </ul>
+                                    </div><!-- /follow -->
+                                </div><!-- /more padding left -->
+                            </aside>
+                        </div><!-- /row -->
+                    </div><!-- /TAB 2:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+                    <div class="tab-pane fade" id="tab_3">
+
+                        <div id="map_contact"></div><!-- /map -->
+
+                        <div id="contact_info">
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="box_contact">
+                                        <i class="pe-7s-map-marker"></i>
+                                        <h4>Address</h4>
+                                        <p>Duo magna vocibus electram ad. Sit an amet aeque legimus, paulo mnesarchum et
+                                            mea, et pri quodsi singulis.</p>
+                                        <p>11 Fifth Ave - New York, 45 001238 - USA</p>
+                                        <a href="https://www.google.com/maps/dir//11+5th+Ave,+New+York,+NY+10003,+Stati+Uniti/@40.7322935,-73.9981148,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x89c25990b3af8bb9:0x854ae1d3553155!2m2!1d-73.9959261!2d40.7322935!3e0"
+                                            class="btn_1" target="_blank">Get directions</a>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="box_contact">
+                                        <i class="pe-7s-mail-open-file"></i>
+                                        <h4>Email and website</h4>
+                                        <p>Duo magna vocibus electram ad. Sit an amet aeque legimus, paulo mnesarchum et
+                                            mea, et pri quodsi singulis.</p>
+                                        <p>
+                                            <strong>Email:</strong> <a href="#0">support@domain.com</a><br>
+                                            <strong>Website:</strong> <a href="#0">www.quote.com</a>
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="box_contact">
+                                        <i class="pe-7s-call"></i>
+                                        <h4>Telephone</h4>
+                                        <p>Duo magna vocibus electram ad. Sit an amet aeque legimus, paulo mnesarchum et
+                                            mea, et pri quodsi singulis.</p>
+                                        <p>
+                                            <strong>Tel:</strong> <a href="#0">+44 543 53433</a><br>
+                                            <strong>Fax:</strong> <a href="#0">+44 543 5322</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div><!-- / row-->
+                            <hr>
+                            <div id="social">
+                                <ul>
+                                    <li><a href="#"><i class="icon-facebook"></i></a></li>
+                                    <li><a href="#"><i class="icon-twitter"></i></a></li>
+                                    <li><a href="#"><i class="icon-google"></i></a></li>
+                                    <li><a href="#"><i class="icon-linkedin"></i></a></li>
+                                </ul>
+                            </div><!-- /social -->
+                        </div>
+                    </div><!-- /TAB 3:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::: -->
+
+                </div><!-- /tab content -->
+            </div><!-- /container-fluid -->
+        </div><!-- /wrapper_in -->
+    </div><!-- /main_container -->
+
+    <div id="additional_links">
+        <ul>
+            <li>© Quote</li>
+            <li><a href="#0" class="animated_link">Purchase this template</a></li>
+            <li><a href="index_2.html" class="animated_link">Demo Slider</a></li>
+            <li><a href="index_3.html" class="animated_link">With UPLOAD</a></li>
+            <li><a href="index_4.html" class="animated_link">With Branch</a></li>
+            <li><a href="index_5.html" class="animated_link">Full Page View</a></li>
+            <li><a href="shortcodes.html" class="animated_link">Shortcodes</a></li>
+        </ul>
+    </div><!-- /add links -->
+
+    <!-- Modal terms -->
+    <div class="modal fade" id="terms-txt" tabindex="-1" role="dialog" aria-labelledby="termsLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Terms and conditions</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Lorem ipsum dolor sit amet, in porro albucius qui, in <strong>nec quod novum accumsan</strong>,
+                        mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus,
+                        pro ne quod dicunt sensibus.</p>
+                    <p>Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod novum accumsan, mei ludus tamquam
+                        dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt
+                        sensibus. Lorem ipsum dolor sit amet, <strong>in porro albucius qui</strong>, in nec quod novum
+                        accumsan, mei ludus tamquam dolores id. No sit debitis meliore postulant, per ex prompta alterum
+                        sanctus, pro ne quod dicunt sensibus.</p>
+                    <p>Lorem ipsum dolor sit amet, in porro albucius qui, in nec quod novum accumsan, mei ludus tamquam
+                        dolores id. No sit debitis meliore postulant, per ex prompta alterum sanctus, pro ne quod dicunt
+                        sensibus.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn_1" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <!-- SCRIPTS -->
+    <!-- Jquery-->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <!-- Common script -->
+    <script src="js/common_scripts_min.js"></script>
+    <!-- Theme script -->
+    <script src="js/functions_no_side_panel.js"></script>
+    <!-- Google map -->
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script src="js/mapmarker.jquery.js"></script>
+    <script src="js/mapmarker_func.jquery.js"></script>
+
+</body>
+
+</html>
